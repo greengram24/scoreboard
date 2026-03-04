@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.scoreboard {
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.teams {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.team {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.team p {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.reset {
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+}
